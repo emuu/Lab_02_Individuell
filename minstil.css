@@ -2,17 +2,18 @@
 	border: 1px solid black;
 	color: #6C8DD5;
 	background-color: #06276F;
-    font-family: Georgia, "Times New Roman",
+    font-family: Georgia, "Times New Roman",           /* Her har jeg satt bakgrunnsfarge og textfarge
+    							Jeg har også lagt til skrifttype og en kant rundt bodyen */
  }
  	
-ul.navbar li {
-    background: #4573D5;
+ul.navbar li {				/* Her har jeg lagt til bakgrunnsfargen på knappene i navigasjonsbaren */ 
+    background: #4573D5;		/* I tilleg har jeg lagt til litt spesifikasjoner på knappene, f.eks en svart kant*/
     margin: 0.5em 0;
     padding: 0.3em;
     border: 1px solid black }
 	
 ul.navbar a {
-    text-decoration: none }
+    text-decoration: none }		/* Her har jeg lagt til farge på linkene i knappene */
    a:link {
     color: white }
   a:visited {
@@ -21,11 +22,11 @@ ul.navbar a {
 	
 li
 	{
-	display:inline;
+	display:inline;				/* Her har jeg bestemt at liste elementene skal være på samme linje */
 	}
 	
 	
 h1 {
-    font-family: Helvetica, Geneva, Arial,
+    font-family: Helvetica, Geneva, Arial,		/* Her har jeg valgt skrifttypen på h1 (header1) */
     SunSans-Regular, sans-serif }
 }
