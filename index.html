@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="minstil.css" type="text/css" media="all" />
+<head>
+  <title>Side for programmeringsspråk</title>
+</head>
+
+<body>
+<center>
+
+
+<!-- Navigasjonsmeny. -->
+
+<ul class="navbar">
+  <li><a href="index.html">Hjem</a>
+  <li><a href="kronologisk.html" onclick="alert('Beklager, denne siden er under konstruksjon!')">Kronologisk</a>
+  <li><a href="hierarkisk.html" onclick="alert('Beklager, denne siden er under konstruksjon!')">Hierarkisk</a>
+  <li><a href="alfabetisk.html" onclick="alert('Beklager, denne siden er under konstruksjon!')">Alfabetisk</a>
+</ul>
+
+<p>Søk i programmeringsspråk:</p><form>
+<label for="proglangs">Velg:</label>
+  <select id="proglangs" onChange="printToOutputBox(this)">
+  <option value="actionscript">ActionScript</option>
+  <option value="as">AppleScript</option>
+  <option value="asp">Asp</option>
+  <option value="Basic">BASIC</option>
+  <option value="c">C</option>
+  <option value="C++">C++</option>
+  <option value="clojure">Clojure</option>
+  <option value="COBOL">COBOL</option>
+  <option value="ColdFusion">ColdFusion</option>
+  <option value="Erlang">Erlang</option>
+  <option value="Fortran">Fortran</option>
+  <option value="Groovy">Groovy</option>
+  <option value="Haskell">Haskell</option>
+  <option value="Java">Java</option>
+  <option value="JavaScript">JavaScript</option>
+  <option value="Lisp">Lisp</option>
+  <option value="Perl">Perl</option>
+  <option value="PHP">PHP</option>
+  <option value="Python">Python</option>
+  <option value="Ruby">Ruby</option>
+  <option value="Scala">Scala</option>
+  <option value="Scheme">Scheme</option>
+</select>
+</form>
+
+<!-- Informasjon om siden -->
+<h1>Programmeringsspråk</h1>
+
+<div id="outputbox">Velkommen til en mystisk verden av programmeringsspråk!</span>
+<script src="proglangs.js"></script>
+<br>
+</div>
+<!-- Første selvlagde siden må ha med signatur! -->
+<address>Påbegynt 16.09.2013 - Siste oppdatering 17.09.2013<br>
+  av Steffan Larsen.</address>
+ 
+ 
+ </center>
+</body>
+</html>
